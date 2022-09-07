@@ -1,0 +1,97 @@
+body{
+background-color: #8B9C74;
+}
+
+form{
+background-color: #667157;
+color: white;
+display: flex;
+flex-direction: column;
+height: 400px;
+width: 400px;
+border-radius: 15%;
+margin: auto;
+margin-top: 200px;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: rockwell;
+	font-size: 40px;
+}
+
+input{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-family: rockwell;
+	font-size: 20px;
+	box-shadow: 2px 4px 15px 0 black;
+	transition: 0.5s;
+}
+
+div{
+	text-align: center;
+	padding: 20px;
+}
+
+.usuario{
+	margin: auto;
+	border: darkgreen solid 4px;
+	width: 200px;
+	border-radius: 20px;
+	outline: none;
+	background-color: #667157;
+	transition: 0.5s;
+}
+.contraseña{
+	outline: none;
+	margin: auto;
+	width: 200px;
+	border: darkgreen solid 4px;
+	border-radius: 20px;
+	background-color: #667157;
+	transition: 0.5s;
+}
+
+.usuario:focus{
+	background-color: #8B9C74;
+	width: 280px;
+	border-color: white;
+}
+
+.usuario::placeholder{
+text-align: center;
+color: white;
+}
+
+.contraseña:focus{
+	background-color:#8B9C74 ;
+	width: 280px;
+	border-color: white;
+}
+.contraseña::placeholder{
+	text-align: center;
+	color: white;
+}
+
+.enviar{
+	font-family: rockwell;
+	display: flex;
+	justify-content: center;
+	width: 150px;
+	margin-top: 20px;
+	background-color: darkgreen;
+	border: darkgreen solid 4px;
+	border-radius: 20px;
+	color: white;
+	margin:  auto;
+}
+
+
+
+
+
+
